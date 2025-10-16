@@ -1,0 +1,170 @@
+========================================
+ПОЛНЫЙ СИСТЕМНЫЙ ОТЧЁТ
+========================================
+========================================
+1. Текущий рабочий каталог
+========================================
+/home/timur
+
+========================================
+2. Текущий запущенный процесс
+========================================
+    PID TTY          TIME CMD
+   3430 pts/0    00:00:00 system_info.sh
+
+========================================
+3. Домашний каталог
+========================================
+/home/timur
+
+========================================
+4. Название и версия ОС
+========================================
+PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+========================================
+5. Доступные оболочки
+========================================
+# /etc/shells: valid login shells
+/bin/sh
+/usr/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/dash
+/usr/bin/tmux
+
+========================================
+6. Текущие пользователи
+========================================
+timur    pts/1        2025-10-15 20:45
+
+========================================
+7. Количество пользователей
+========================================
+1
+
+========================================
+8. Информация о жестких дисках
+========================================
+NAME MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda    8:0    0 388.4M  1 disk 
+sdb    8:16   0     2G  0 disk [SWAP]
+sdc    8:32   0     1T  0 disk /mnt/wslg/distro
+                               /
+
+========================================
+9. Информация о процессоре
+========================================
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      48 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             12
+On-line CPU(s) list:                0-11
+Vendor ID:                          AuthenticAMD
+Model name:                         AMD Ryzen 5 5600H with Radeon Graphics
+CPU family:                         25
+Model:                              80
+Thread(s) per core:                 2
+Core(s) per socket:                 6
+Socket(s):                          1
+Stepping:                           0
+BogoMIPS:                           6587.47
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+Virtualization:                     AMD-V
+Hypervisor vendor:                  Microsoft
+Virtualization type:                full
+L1d cache:                          192 KiB (6 instances)
+L1i cache:                          192 KiB (6 instances)
+L2 cache:                           3 MiB (6 instances)
+L3 cache:                           16 MiB (1 instance)
+Vulnerability Gather data sampling: Not affected
+Vulnerability Itlb multihit:        Not affected
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Not affected
+Vulnerability Retbleed:             Not affected
+Vulnerability Spec rstack overflow: Mitigation; safe RET
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:                Not affected
+Vulnerability Tsx async abort:      Not affected
+
+========================================
+10. Информация о памяти
+========================================
+               total        used        free      shared  buff/cache   available
+Mem:           6.7Gi       636Mi       5.8Gi       3.0Mi       575Mi       6.1Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+========================================
+11. Информация о файловой системе
+========================================
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.4G     0  3.4G   0% /usr/lib/modules/5.15.153.1-microsoft-standard-WSL2
+none            3.4G  4.0K  3.4G   1% /mnt/wsl
+drivers         413G  308G  105G  75% /usr/lib/wsl/drivers
+/dev/sdc       1007G  1.9G  954G   1% /
+none            3.4G   76K  3.4G   1% /mnt/wslg
+none            3.4G     0  3.4G   0% /usr/lib/wsl/lib
+rootfs          3.4G  2.2M  3.4G   1% /init
+none            3.4G  520K  3.4G   1% /run
+none            3.4G     0  3.4G   0% /run/lock
+none            3.4G     0  3.4G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.4G   96K  3.4G   1% /mnt/wslg/versions.txt
+none            3.4G   96K  3.4G   1% /mnt/wslg/doc
+C:\             413G  308G  105G  75% /mnt/c
+D:\             932G  132G  801G  15% /mnt/d
+tmpfs           687M   16K  687M   1% /run/user/1000
+
+========================================
+12. Установленные пакеты (dpkg, первые 30)
+========================================
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                          Version                                 Architecture Description
++++-=============================-=======================================-============-================================================================================
+ii  adduser                       3.137ubuntu1                            all          add and remove users and groups
+ii  adwaita-icon-theme            46.0-1                                  all          default icon theme of GNOME
+ii  apparmor                      4.0.1really4.0.1-0ubuntu0.24.04.3       amd64        user-space parser utility for AppArmor
+ii  apport                        2.28.1-0ubuntu3.3                       all          automatically generate crash reports for debugging
+ii  apport-core-dump-handler      2.28.1-0ubuntu3.3                       all          Kernel core dump handler for Apport
+ii  apport-symptoms               0.25                                    all          symptom scripts for apport
+ii  appstream                     1.0.2-1build6                           amd64        Software component metadata management
+ii  apt                           2.7.14build2                            amd64        commandline package manager
+ii  apt-utils                     2.7.14build2                            amd64        package management related utility programs
+ii  at-spi2-common                2.52.0-1build1                          all          Assistive Technology Service Provider Interface (common files)
+ii  at-spi2-core                  2.52.0-1build1                          amd64        Assistive Technology Service Provider Interface (D-Bus core)
+ii  base-files                    13ubuntu10.1                            amd64        Debian base system miscellaneous files
+ii  base-passwd                   3.6.3build1                             amd64        Debian base system master password and group files
+ii  bash                          5.2.21-2ubuntu4                         amd64        GNU Bourne Again SHell
+ii  bash-completion               1:2.11-8                                all          programmable completion for the bash shell
+ii  bc                            1.07.1-3ubuntu4                         amd64        GNU bc arbitrary precision calculator language
+ii  binutils                      2.42-4ubuntu2.5                         amd64        GNU assembler, linker and binary utilities
+ii  binutils-common:amd64         2.42-4ubuntu2.5                         amd64        Common files for the GNU assembler, linker and binary utilities
+ii  binutils-x86-64-linux-gnu     2.42-4ubuntu2.5                         amd64        GNU binary utilities, for x86-64-linux-gnu target
+ii  bsdextrautils                 2.39.3-9ubuntu6.1                       amd64        extra utilities from 4.4BSD-Lite
+ii  bsdutils                      1:2.39.3-9ubuntu6.1                     amd64        basic utilities from 4.4BSD-Lite
+ii  byobu                         6.11-0ubuntu1                           all          text window manager, shell multiplexer, integrated DevOps environment
+ii  ca-certificates               20240203                                all          Common CA certificates
+ii  cloud-guest-utils             0.33-1                                  all          cloud guest utilities
+ii  cloud-init                    24.4-0ubuntu1~24.04.2                   all          initialization and customization tool for cloud instances
+
